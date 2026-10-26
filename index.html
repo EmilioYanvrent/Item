@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hi! Aku Item 🐾</title>
+  <meta name="description" content="Halo, aku Item!">
+  <meta property="og:title" content="Hi! Aku namanya Item">
+  <meta property="og:image" content="item.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #e8efec;
+      --card: #ffffff;
+      --ink: #2e3532;
+      --muted: #5d6a65;
+      --accent: #c8862e;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Nunito", system-ui, sans-serif;
+      display: flex;
+      justify-content: center;
+      padding: 24px 16px 40px;
+    }
+    main {
+      width: 100%;
+      max-width: 440px;
+      background: var(--card);
+      border-radius: 28px;
+      overflow: hidden;
+      box-shadow: 0 12px 40px rgba(46, 53, 50, 0.12);
+    }
+    .photo {
+      display: block;
+      width: 100%;
+      aspect-ratio: 726 / 787;
+      object-fit: cover;
+    }
+    .content { padding: 24px 24px 32px; }
+    h1 {
+      font-family: "Fredoka", sans-serif;
+      font-weight: 600;
+      font-size: 2rem;
+      line-height: 1.2;
+      margin-bottom: 16px;
+    }
+    h1 span { color: var(--accent); }
+    p {
+      font-size: 1.05rem;
+      line-height: 1.65;
+      color: var(--muted);
+    }
+    p + p { margin-top: 12px; }
+    footer {
+      margin-top: 28px;
+      text-align: center;
+      font-size: 1.4rem;
+      letter-spacing: 6px;
+      opacity: 0.5;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <img class="photo" src="item.jpg" alt="Item, kucing tabby abu-abu">
+    <div class="content">
+      <h1>Hi! Aku namanya <span>Item</span> 🐾</h1>
+
+      <!-- Ganti teks di bawah ini -->
+<p>Dulu aku masih bayi kecil, mungil banget, dan katanya lucu sekali. Semua orang gemas lihat aku. 🍼</p>
+<p>Waktu kecil aku paling suka naik ke genting, lihat dunia dari atas. Aku juga suka main di taman, lari-lari, ngejar daun, dan guling-guling di rumput. 🌿</p>
+<p>Sekarang aku sudah besar, tapi aku masih suka main-main kayak dulu. Kalau ketemu aku, ajak main ya! 😺</p>
+
+      <footer>🐾🐾🐾</footer>
+    </div>
+  </main>
+</body>
+</html>
